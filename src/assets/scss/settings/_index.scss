@@ -1,0 +1,7 @@
+// volver context (mixins, variables, etc)
+@use '@volverjs/style/scss/context' with (
+	$color-brand: #41b884,
+	$color-info: #6a93da,
+	$zero-specificity-for-utilities: false,
+	$font-family-serif: "'Zilla Slab', sans-serif"
+);
